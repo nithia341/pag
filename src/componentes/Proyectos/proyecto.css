@@ -67,3 +67,25 @@
         width: 90%; /* Asegura que la segunda fila no quede demasiado estrecha */
     }
 }
+@media (max-width: 1024px) {
+    .con-tar {
+        flex-direction: column; /* Cambia la distribución de las tarjetas para apilarse verticalmente */
+        align-items: center; /* Centra las tarjetas horizontalmente */
+        width: 90%; /* Ajusta el ancho para que las tarjetas no ocupen todo el espacio */
+    }
+
+    .tar {
+        width: 80%; /* Las tarjetas ocupan más espacio horizontalmente en pantallas medianas */
+        margin-bottom: 30px; /* Reducimos el espacio entre tarjetas */
+        padding-top: 15px; /* Menos espacio superior que en pantallas pequeñas */
+    }
+
+    .con-tar2 {
+        width: 80%; /* Reduce el ancho de la segunda fila para que sea consistente */
+        margin-top: 20px; /* Un poco menos de margen superior */
+    }
+
+    .tar-img-small {
+        max-width: 20%; /* Las imágenes pequeñas se ajustan un poco más */
+    }
+}

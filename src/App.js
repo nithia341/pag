@@ -12,13 +12,15 @@ function App() {
     <div>
       <BrowserRouter>
         <Navbar />
+         
         <Routes>
-          <Route path="/" element={<Tarjeta />} /> {/* Pantalla principal con la tarjeta */}
+          <Route path="pag" element={<Tarjeta />} /> {/* Pantalla principal con la tarjeta */}
           <Route path="/inicio" element={<Tarjeta />} /> {/* Página "Inicio" */}
           <Route path="/inicio/Cursos" element={<Estudios />} /> {/* Página "Estudios" */}
           <Route path="/inicio/Proyectos" element={<Proyecto />} /> {/* Página "Proyectos" */}
           <Route path="/inicio/Contacto" element={<Contacto />} /> {/* Página "Contacto" */}
         </Routes>
+    
       </BrowserRouter>
     </div>
   );
