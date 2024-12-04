@@ -1,0 +1,67 @@
+.conteiner {
+    background-color: #E6DACE; /* Color café claro para el fondo de toda la pantalla */
+    width: 100%; /* Hace que el contenedor ocupe el 100% del ancho disponible */
+    height: 100vh; /* Hace que el contenedor ocupe el 100% de la altura de la pantalla */
+    display: flex; /* Utiliza flexbox para centrar la tarjeta */
+    align-items: center; /* Centra la tarjeta verticalmente */
+}
+    .tarjetaA{
+        display: flex; /* Utiliza un modelo de diseño flexible (Flexbox) */
+        flex-direction: column; /* Organiza las tarjetas en una columna */
+        align-items: center; /* Centra las tarjetas horizontalmente dentro del contenedor */
+        width: 50%; /* Establece el 50% del ancho del contenedor para las tarjetas */
+        margin-left:35%; /* Aleja las tarjetas del borde izquierdo con un margen de 300px */
+        background-color: #f2efed; /* Color de fondo café */
+        padding: 10px; /* Espaciado interno */
+        width: 400px; /* Ancho de la tarjeta */
+        text-align: center; /* Centra el texto */
+        margin-top: 10px; /* Separación  hacia abajo desde el elemento anterior (ej. nav) */
+        
+    }
+        .texto{
+            width: 80%; /* El texto ocupa el 80% del espacio de la tarjeta */
+            padding-top: 0; /* Ajuste para mover el texto hacia arriba */
+            padding-bottom: 100px; /* Ajuste para mantener el espaciado adecuado */
+            font-size: 18px; /* Tamaño del texto */
+            line-height: 1.5; /* Espaciado entre líneas */
+            color: #333; /* Color del texto */
+        }
+        .icons {
+            display: flex; /* Utiliza flexbox para alinear los iconos en línea (horizontalmente) */
+            justify-content: center; /* Centra los iconos horizontalmente */
+            gap: 40px; /* Espacio entre los iconos */
+           
+    
+        }
+        .git,.linke {
+            width: 50px; /* Ancho fijo para los iconos */
+            height: 50px; /* Alto fijo para los iconos */
+            border-radius: 50%; /* Bordes redondeados */
+            border: 2.5px solid #eee7e1; /* Borde del color de fondo */
+            display: flex; /* Utiliza flexbox para centrar el contenido dentro de los iconos */
+            align-items: center; /* Centra el contenido verticalmente */
+            justify-content: center; /* Centra el contenido horizontalmente */
+            
+            cursor: pointer;
+        }
+@media (max-width: 480px) {
+    .tarjetaA {
+        width: 90%; /* La tarjeta ocupa más espacio en pantallas más pequeñas */
+        margin-left: 5%; /* Alineación centrada */
+        margin-top: 15px; /* Espacio adicional en la parte superior */
+    }
+
+    .texto {
+        font-size: 14px; /* Reducir aún más el tamaño de la fuente */
+        padding-bottom: 30px; /* Menos espacio en la parte inferior */
+    }
+
+    .icons {
+        gap: 10px; /* Iconos más cerca entre sí */
+    }
+
+    .git, .linke {
+        width: 35px; /* Reducir tamaño de iconos */
+        height: 35px; /* Reducir tamaño de iconos */
+    }
+}

@@ -1,0 +1,103 @@
+.tarjetas-container {
+  text-align: center; /* Centra el texto */
+  display: flex; /* Disposición en línea de las tarjetas */
+  justify-content: center; /* Centra las tarjetas horizontalmente */
+  width: 200%;
+  margin-left: 150px; /* Ajusta este valor para moverlo a la derecha */
+ 
+}
+
+/* Contenedor principal de la tarjeta */
+  .tarjeta1 {
+    display: flex;
+    flex-direction: column; /* Cambiar la dirección de los elementos a vertical */
+    align-items: center; /* Centra todo el contenido horizontalmente */
+    background-color: #F4ECE6; /* Color de fondo café */
+    padding: 40px; /* Espaciado interno */
+    width: 600px; /* Ancho de la tarjeta */
+    text-align: center; /* Centra el texto */
+    margin-top: 80px; /* Separación de 40px hacia abajo desde el elemento anterior (ej. nav) */
+ 
+  }
+
+    /* Contenedor de la imagen */
+    .imagen-container {
+      width: 200px; /* Tamaño de la imagen */
+      height: 200px; /* Tamaño de la imagen */
+      overflow: hidden; /* Para asegurar que la imagen no se desborde */
+      border-radius: 50%; /* Hacer la imagen circular */
+      margin-bottom: 60px; /* Espaciado entre la imagen y el texto */
+    }
+
+    /* Estilo de la imagen */
+    .imagen {
+      width: 100%; /* La imagen ocupará el 100% del contenedor */
+      height: 100%; /* La imagen ocupará el 100% del contenedor */
+      object-fit: cover; /* Asegura que la imagen cubra todo el área sin deformarse */
+    }
+
+    /* Estilo del texto */
+    .contenido {
+      font-family: 'Playfair Display', serif; /* Aplica la fuente curveada */
+      color: rgb(11, 11, 11); /* Texto en color blanco */
+      font-weight: bold ; /* Texto en negrita */
+      font-size: 30px; /* Tamaño de la fuente más pequeño */
+    }
+
+  .tarjeta2 {
+    display: flex;
+    flex-direction: column; /* Disposición vertical */
+    align-items: center; /* Centra todo el contenido horizontalmente */
+    padding: 4px; /* Relleno interno */
+    width: 80%; /* Aseguramos que la tarjeta tenga el mismo ancho que la tarjeta 1 */
+    text-align: center; /* Centra el texto */
+    margin-top: 80px; /* Separación de 40px hacia abajo desde el elemento anterior (ej. nav) */  
+  }
+
+  /* Modificado para subir el texto unos centímetros */
+  .texto {
+    width: 80%; /* El texto ocupa el 80% del espacio de la tarjeta */
+    padding-top: 100px; /* Ajuste para mover el texto hacia arriba */
+    padding-bottom: 100px; /* Ajuste para mantener el espaciado adecuado */
+    font-size: 18px; /* Tamaño del texto */
+    line-height: 1.5; /* Espaciado entre líneas */
+    color: #333; /* Color del texto */
+  }
+@media (max-width: 767px) {
+  .tarjetas-container {
+    flex-direction: column; /* Las tarjetas se apilan verticalmente */
+    width: 100%; /* Ocupan el 100% del ancho disponible */
+    padding: 10px; /* Espaciado adicional */
+  }
+
+  .tarjeta1, .tarjeta2 {
+    width: 90%; /* Las tarjetas ocupan el 90% del ancho */
+    margin-top: 20px; /* Reducimos el margen superior */
+  }
+
+  .imagen-container {
+    width: 150px; /* Reducimos el tamaño de la imagen */
+    height: 150px; /* Reducimos el tamaño de la imagen */
+  }
+
+  .contenido {
+    font-size: 20px; /* Reducimos el tamaño de la fuente */
+  }
+
+  .texto {
+    font-size: 14px; /* Ajustamos el tamaño del texto en móviles */
+    padding-top: 30px; /* Reducimos el padding superior */
+    padding-bottom: 30px; /* Reducimos el padding inferior */
+  }
+}
+@media (max-width: 480px) {
+  .contenido {
+    font-size: 18px; /* Reducir aún más el tamaño del texto en pantallas muy pequeñas */
+  }
+
+  .texto {
+    font-size: 12px; /* Ajuste más pequeño para pantallas muy pequeñas */
+    padding-top: 20px; /* Acomoda el texto de forma más compacta */
+    padding-bottom: 20px; /* Menos espacio en la parte inferior */
+  }
+}
