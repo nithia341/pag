@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/pag/static/css/main.9fed6055.css",
+    "main.css": "/pag/static/css/main.9c7946bd.css",
     "main.js": "/pag/static/js/main.0953b3bf.js",
     "static/media/calculadora.png": "/pag/static/media/calculadora.06bb464497162850a924.png",
     "static/media/tareas.png": "/pag/static/media/tareas.6f5675927ec3fe794de7.png",
@@ -13,11 +13,11 @@
     "static/media/5252.jpg": "/pag/static/media/5252.6db44ec24e0b55fd1684.jpg",
     "static/media/tareasQ.png": "/pag/static/media/tareasQ.9de3e6d0ab19b86b1496.png",
     "index.html": "/pag/index.html",
-    "main.9fed6055.css.map": "/pag/static/css/main.9fed6055.css.map",
+    "main.9c7946bd.css.map": "/pag/static/css/main.9c7946bd.css.map",
     "main.0953b3bf.js.map": "/pag/static/js/main.0953b3bf.js.map"
   },
   "entrypoints": [
-    "static/css/main.9fed6055.css",
+    "static/css/main.9c7946bd.css",
     "static/js/main.0953b3bf.js"
   ]
 }
