@@ -4,12 +4,7 @@ body, html {
   height: 100%;
 }
 
-/* Contenedor principal */
-.container {
-  position: relative; /* Hacemos que el contenedor sea relativo para que la tarjeta se posicione encima */
-  display: flex; /* Usamos Flexbox para la disposición de las secciones de color */
-  height: 100vh; /* Aseguramos que ocupe toda la altura de la pantalla */
-}
+
 
 /* La mitad izquierda con el color #E6DACE (café claro) */
 .left-half {

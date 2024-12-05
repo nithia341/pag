@@ -29,10 +29,9 @@
 }
 
 .img {
-    width: 120%; /* La imagen ocupa el 120% del ancho del contenedor, extendiéndola un poco más */
+    width: 125%; /* La imagen ocupa el 120% del ancho del contenedor, extendiéndola un poco más */
     object-fit: cover; /* Asegura que la imagen cubra completamente el área sin deformarse */
     height: 600px; /* Establece una altura fija de 600px para las imágenes */
-    overflow: hidden; /* Evita que la imagen se desborde fuera de su contenedor */
     object-position: center; /* Centra la imagen dentro del contenedor */
 }
 
@@ -53,9 +52,15 @@
     background-color: #e5e5d6; /* Cambia el color de fondo del botón cuando se pasa el ratón sobre él */
 }
 
-@media (max-width: 767px) {
+
+@media (max-width: 1024px) {
+    .i {
+        background-color: #E6DACE ; /* Establece un color de fondo beige claro para el contenedor */
+        width: 100%; /* Hace que el contenedor ocupe el 100% del ancho disponible */
+        
+    }
     .tarjetas {
-        width: 90%; /* Las tarjetas ocupan todo el ancho disponible */
+        width: 100%; /* Las tarjetas ocupan todo el ancho disponible */
         margin-left: 20px; /* Elimina el margen izquierdo */
         margin-right: 0; /* Elimina el margen derecho */
         padding: 1px; /* Añade un poco más de espaciado interno para mejorar la visualización */
@@ -84,6 +89,11 @@
         right: 20px; /* Coloca el botón un poco más a la izquierda */
         font-size: 20px; /* Aumenta ligeramente el tamaño del icono */
         padding: 14px; /* Aumenta el tamaño del botón */
+    }
+    .i {
+        background-color: #E6DACE ; /* Establece un color de fondo beige claro para el contenedor */
+        width: 100%; /* Hace que el contenedor ocupe el 100% del ancho disponible */
+        
     }
 }
    
