@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/pag/static/css/main.9c7946bd.css",
-    "main.js": "/pag/static/js/main.0953b3bf.js",
+    "main.js": "/pag/static/js/main.10ba3ec1.js",
     "static/media/calculadora.png": "/pag/static/media/calculadora.06bb464497162850a924.png",
     "static/media/tareas.png": "/pag/static/media/tareas.6f5675927ec3fe794de7.png",
-    "static/media/javascrip.png": "/pag/static/media/javascrip.b5a2722fd1893986adca.png",
-    "static/media/G7.png": "/pag/static/media/G7.a4c57d5698e96864cb46.png",
-    "static/media/ibmA.png": "/pag/static/media/ibmA.fc18bb906de47b3bda24.png",
-    "static/media/IBMC.png": "/pag/static/media/IBMC.093f9a865dbc9a773d6d.png",
-    "static/media/python.png": "/pag/static/media/python.2e1277f82e39fd7327d3.png",
     "static/media/contador.png": "/pag/static/media/contador.94994ea500c35237049e.png",
     "static/media/5252.jpg": "/pag/static/media/5252.6db44ec24e0b55fd1684.jpg",
+    "static/media/ibmA.jpg": "/pag/static/media/ibmA.21fd9279d55c328d4a4c.jpg",
+    "static/media/IBMC.jpg": "/pag/static/media/IBMC.53c5abf39e9ccb21444f.jpg",
+    "static/media/javascript.jpg": "/pag/static/media/javascript.ef67af6f8fc53c45af3f.jpg",
+    "static/media/G7.jpg": "/pag/static/media/G7.df9792d62a4ee1fb1751.jpg",
+    "static/media/python.jpg": "/pag/static/media/python.77de64f048ea2c33317e.jpg",
     "static/media/tareasQ.png": "/pag/static/media/tareasQ.9de3e6d0ab19b86b1496.png",
     "index.html": "/pag/index.html",
     "main.9c7946bd.css.map": "/pag/static/css/main.9c7946bd.css.map",
-    "main.0953b3bf.js.map": "/pag/static/js/main.0953b3bf.js.map"
+    "main.10ba3ec1.js.map": "/pag/static/js/main.10ba3ec1.js.map"
   },
   "entrypoints": [
     "static/css/main.9c7946bd.css",
-    "static/js/main.0953b3bf.js"
+    "static/js/main.10ba3ec1.js"
   ]
 }
