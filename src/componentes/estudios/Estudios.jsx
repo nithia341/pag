@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import CardMedia from '@mui/material/CardMedia';
-import ibmA from "../../imagenes/ibmA.png";
-import IBMC from "../../imagenes/IBMC.png";
-import python from "../../imagenes/python.png";
-import G7 from "../../imagenes/G7.png";
-import javascript from "../../imagenes/javascrip.png";
+import ibmA from "../../imagenes/ibmA.jpg";
+import IBMC from "../../imagenes/IBMC.jpg";
+import python from "../../imagenes/python.jpg";
+import G7 from "../../imagenes/G7.jpg";
+import javascript from "../../imagenes/javascript.jpg";
 import "../estudios/estudios.css";
 import ArrowDropUpSharpIcon from '@mui/icons-material/ArrowDropUpSharp';
 
