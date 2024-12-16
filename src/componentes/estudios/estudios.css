@@ -20,10 +20,12 @@
     align-items: center; /* Centra las tarjetas horizontalmente dentro del contenedor */
     width: 50%; /* Establece el 50% del ancho del contenedor para las tarjetas */
     margin-left: 300px; /* Aleja las tarjetas del borde izquierdo con un margen de 300px */
+    background-color: #E6DACE ; /* Establece un color de fondo beige claro para el contenedor */
 }
 
 .card {
     width: 100%; /* Hace que cada tarjeta ocupe el 100% del ancho de su contenedor */
+    background-color: #E6DACE ; /* Establece un color de fondo beige claro para el contenedor */
     margin: 0 auto; /* Centra las tarjetas dentro del contenedor */
 }
 
