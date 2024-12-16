@@ -23,7 +23,7 @@ body, html {
   }
 
   .left-half, .right-half {
-    width: 100%; /* Ambas mitades ocupan el 100% del ancho en pantallas pequeñas */
+    width: 130%; /* Ambas mitades ocupan el 100% del ancho en pantallas pequeñas */
    
 
   }
