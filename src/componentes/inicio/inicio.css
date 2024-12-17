@@ -1,9 +1,12 @@
 .tarjetas-container {
-  text-align: center; /* Centra el texto */
-  display: flex; /* Disposición en línea de las tarjetas */
-  justify-content: center; /* Centra las tarjetas horizontalmente */
-  width: 200%;
-  margin-left: 150px; /* Ajusta este valor para moverlo a la derecha */
+
+  display: flex; /* Aplica flexbox para poner las tarjetas en una línea horizontal */
+
+  background-image: url("..//../imagenes/33141.jpg");
+  background-size: cover;  /* la imagen cubra toda la pantalla */
+  background-position: center;  /* Centra la imagen */
+  background-repeat: no-repeat;  /* Evita que la imagen se repita */
+  padding: 100px;
  
 }
 
@@ -12,11 +15,10 @@
     display: flex;
     flex-direction: column; /* Cambiar la dirección de los elementos a vertical */
     align-items: center; /* Centra todo el contenido horizontalmente */
-    background-color: #F4ECE6; /* Color de fondo café */
-    padding: 40px; /* Espaciado interno */
-    width: 600px; /* Ancho de la tarjeta */
+    padding: 10px; /* Espaciado interno */
+    width: 500px; /* Ancho de la tarjeta */
     text-align: center; /* Centra el texto */
-    margin-top: 80px; /* Separación de 40px hacia abajo desde el elemento anterior (ej. nav) */
+    margin-top: 40px; /* Separación de 40px hacia abajo desde el elemento anterior (ej. nav) */
  
   }
 
@@ -27,6 +29,8 @@
       overflow: hidden; /* Para asegurar que la imagen no se desborde */
       border-radius: 50%; /* Hacer la imagen circular */
       margin-bottom: 60px; /* Espaciado entre la imagen y el texto */
+      border: 3px solid rgb(110, 181, 235);/*tamaño y color de borde */
+      box-shadow: 0 0 15px 5px rgba(100, 239, 197, 0.897);
     }
 
     /* Estilo de la imagen */
@@ -34,6 +38,7 @@
       width: 100%; /* La imagen ocupará el 100% del contenedor */
       height: 100%; /* La imagen ocupará el 100% del contenedor */
       object-fit: cover; /* Asegura que la imagen cubra todo el área sin deformarse */
+      
     }
 
     /* Estilo del texto */
@@ -52,16 +57,20 @@
     width: 80%; /* Aseguramos que la tarjeta tenga el mismo ancho que la tarjeta 1 */
     text-align: center; /* Centra el texto */
     margin-top: 80px; /* Separación de 40px hacia abajo desde el elemento anterior (ej. nav) */  
+    border: 4px solid rgba(128, 238, 205, 0.897);/*tamaño y color de borde */
+    box-shadow: 0 0 15px 5px rgba(155, 230, 251, 0.897);
+    border-radius: 35px;
   }
 
   /* Modificado para subir el texto unos centímetros */
   .texto {
     width: 80%; /* El texto ocupa el 80% del espacio de la tarjeta */
     padding-top: 100px; /* Ajuste para mover el texto hacia arriba */
-    padding-bottom: 100px; /* Ajuste para mantener el espaciado adecuado */
-    font-size: 18px; /* Tamaño del texto */
+    padding-bottom: 50px; /* Ajuste para mantener el espaciado adecuado */
+    font-size: 20px; /* Tamaño del texto */
     line-height: 1.5; /* Espaciado entre líneas */
     color: #333; /* Color del texto */
+    font-weight: bold ; /* Texto en negrita */
   }
 @media (max-width: 767px) {
   .tarjetas-container {

@@ -1,5 +1,8 @@
 .i {
-    background-color: #E6DACE ; /* Establece un color de fondo beige claro para el contenedor */
+    background-image: url("..//../imagenes/640.jpg");
+  background-size: cover;  /* la imagen cubra toda la pantalla */
+  background-position: center;  /* Centra la imagen */
+  background-repeat: no-repeat;  /* Evita que la imagen se repita */
     width: 100%; /* Hace que el contenedor ocupe el 100% del ancho disponible */
     
 }
@@ -11,29 +14,33 @@
     line-height: 1.2; /* Controla la altura de línea (espaciado entre líneas) */
     color: #0c0c0c; /* Establece el color del texto a un tono oscuro */
     text-align: center; /* Centra el título horizontalmente */
+    
+
 }
 
 .tarjetas {
     display: flex; /* Utiliza un modelo de diseño flexible (Flexbox) */
     flex-direction: column; /* Organiza las tarjetas en una columna */
-    gap:150px; /* Agrega un espacio de 150px entre cada tarjeta */
+    gap:50px; /* Agrega un espacio de 150px entre cada tarjeta */
     align-items: center; /* Centra las tarjetas horizontalmente dentro del contenedor */
     width: 50%; /* Establece el 50% del ancho del contenedor para las tarjetas */
-    margin-left: 300px; /* Aleja las tarjetas del borde izquierdo con un margen de 300px */
-    background-color: #E6DACE ; /* Establece un color de fondo beige claro para el contenedor */
+    margin-left: 400px; /* Aleja las tarjetas del borde izquierdo con un margen de 300px */
+    border-radius: 50px;
 }
 
 .card {
     width: 100%; /* Hace que cada tarjeta ocupe el 100% del ancho de su contenedor */
-    background-color: #E6DACE ; /* Establece un color de fondo beige claro para el contenedor */
+   
     margin: 0 auto; /* Centra las tarjetas dentro del contenedor */
+    
 }
 
 .img {
-    width: 125%; /* La imagen ocupa el 120% del ancho del contenedor, extendiéndola un poco más */
+    width: 80%; /* La imagen ocupa el 80% del ancho del contenedor, extendiéndola un poco más */
     object-fit: cover; /* Asegura que la imagen cubra completamente el área sin deformarse */
-    height: 600px; /* Establece una altura fija de 600px para las imágenes */
+    height: 300px; /* Establece una altura fija de 600px para las imágenes */
     object-position: center; /* Centra la imagen dentro del contenedor */
+   
 }
 
 .scroll-to-top-button {
@@ -54,53 +61,25 @@
 }
 
 
-@media (max-width: 1024px) {
-    .i {
-        background-color: #E6DACE ; /* Establece un color de fondo beige claro para el contenedor */
-        width: 100%; /* Hace que el contenedor ocupe el 100% del ancho disponible */
-        
-    }
-    .tarjetas {
-        width: 100%; /* Las tarjetas ocupan todo el ancho disponible */
-        margin-left: 20px; /* Elimina el margen izquierdo */
-        margin-right: 0; /* Elimina el margen derecho */
-        padding: 1px; /* Añade un poco más de espaciado interno para mejorar la visualización */
+/* Media Queries para dispositivos móviles y pantallas más pequeñas */
+@media (max-width: 768px) {
+    .titulo {
+        font-size: 36px; /* Ajusta el tamaño del texto en pantallas pequeñas */
     }
 
-    .titulo {
-        font-size: 24px; /* Reducimos el tamaño del título a 24px para pantallas más pequeñas */
-        text-align: center; /* Asegura que el título esté centrado */
-        padding-bottom: 5px; 
+    .tarjetas {
+        width: 80%; /* Las tarjetas ocupan más espacio en pantallas pequeñas */
+        margin-left: 40px; /* Elimina el margen izquierdo en pantallas pequeñas */
     }
 
     .img {
-        width: 100%; /* La imagen ocupa todo el ancho del contenedor */
-        height: 350px; /* Ajusta la altura automáticamente para mantener la proporción */
-        object-fit: cover; /* Hace que la imagen se recorte si es necesario, para cubrir el área del contenedor */
-    }
-
-}
-@media (max-width: 480px) {
-    .titulo {
-        font-size: 20px; /* Reducir el tamaño de la fuente en pantallas aún más pequeñas */
+        width: 110%; /* Las imágenes ocupan el 100% del ancho disponible */
+        height: 250px; /* Ajusta la altura de las imágenes en pantallas pequeñas */
     }
 
     .scroll-to-top-button {
-        bottom: 20px; /* Coloca el botón un poco más arriba */
-        right: 20px; /* Coloca el botón un poco más a la izquierda */
-        font-size: 20px; /* Aumenta ligeramente el tamaño del icono */
-        padding: 14px; /* Aumenta el tamaño del botón */
-    }
-    .i {
-        background-color: #E6DACE ; /* Establece un color de fondo beige claro para el contenedor */
-        width: 100%; /* Hace que el contenedor ocupe el 100% del ancho disponible */
-        
+        font-size: 12px; /* Aumenta el tamaño de la fuente en pantallas pequeñas */
+        padding: 12px; /* Aumenta el relleno del botón en pantallas pequeñas */
     }
 }
-   
-
-    
-
-
-
 
